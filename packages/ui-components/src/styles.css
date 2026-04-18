@@ -1,0 +1,74 @@
+:root {
+  --ui-bg: #f8fafc;
+  --ui-card: #ffffff;
+  --ui-border: #d9e2ec;
+  --ui-text: #102a43;
+  --ui-subtle: #486581;
+  --ui-accent: #0f766e;
+  --ui-accent-2: #0369a1;
+  --ui-warm: #b45309;
+}
+
+.ui-card {
+  background: var(--ui-card);
+  border: 1px solid var(--ui-border);
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(16, 42, 67, 0.06);
+  padding: 1rem;
+}
+
+.ui-card__header h3 {
+  margin: 0;
+  color: var(--ui-text);
+}
+
+.ui-card__header p {
+  margin: 0.35rem 0 0;
+  color: var(--ui-subtle);
+  font-size: 0.95rem;
+}
+
+.ui-card__body {
+  margin-top: 0.85rem;
+}
+
+.ui-btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.ui-btn--primary {
+  background: var(--ui-accent);
+  color: #ffffff;
+}
+
+.ui-btn--secondary {
+  background: var(--ui-accent-2);
+  color: #ffffff;
+}
+
+.ui-badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.ui-badge--neutral {
+  background: #e6eff6;
+  color: #243b53;
+}
+
+.ui-badge--success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.ui-badge--warning {
+  background: #fef3c7;
+  color: #92400e;
+}
