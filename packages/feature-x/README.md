@@ -8,5 +8,6 @@ Feature system package 1.
 - `QuickActions`
 
 Both components compose shared packages:
+
 - `@group/ui-components`
 - `@group/utils`

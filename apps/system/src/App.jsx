@@ -1,17 +1,17 @@
-import React, { useMemo, useState } from 'react';
-import { TaskSummary, QuickActions } from '@group/feature-x';
-import { ActivityTimeline, StatusInsights } from '@group/feature-y';
+import React, { useMemo, useState } from "react";
+import { TaskSummary, QuickActions } from "@group/feature-x";
+import { ActivityTimeline, StatusInsights } from "@group/feature-y";
 
 const INITIAL_TASKS = [
-  { id: 1, title: 'Setup workspace', done: true },
-  { id: 2, title: 'Create shared packages', done: false },
-  { id: 3, title: 'Integrate features', done: false }
+  { id: 1, title: "Setup workspace", done: true },
+  { id: 2, title: "Create shared packages", done: false },
+  { id: 3, title: "Integrate features", done: false },
 ];
 
 const INITIAL_EVENTS = [
-  { id: 'e1', message: 'Repository created', date: '2026-04-10' },
-  { id: 'e2', message: 'Feature planning complete', date: '2026-04-12' },
-  { id: 'e3', message: 'System assembly started', date: '2026-04-18' }
+  { id: "e1", message: "Repository created", date: "2026-04-10" },
+  { id: "e2", message: "Feature planning complete", date: "2026-04-12" },
+  { id: "e3", message: "System assembly started", date: "2026-04-18" },
 ];
 
 export default function App() {
@@ -21,7 +21,10 @@ export default function App() {
   function handleAdd() {
     setTasks((prev) => {
       const nextId = prev.length + 1;
-      return [...prev, { id: nextId, title: `New Task ${nextId}`, done: false }];
+      return [
+        ...prev,
+        { id: nextId, title: `New Task ${nextId}`, done: false },
+      ];
     });
   }
 
@@ -34,7 +37,7 @@ export default function App() {
   }
 
   const done = tasks.filter((task) => task.done).length;
-  const risk = done === tasks.length ? 'Low' : 'Medium';
+  const risk = done === tasks.length ? "Low" : "Medium";
 
   return (
     <main className="system-shell">

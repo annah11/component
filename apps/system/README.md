@@ -3,6 +3,7 @@
 Individual assembly app.
 
 This app composes:
+
 - `@group/feature-x`
 - `@group/feature-y`
 

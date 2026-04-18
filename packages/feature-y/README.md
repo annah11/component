@@ -8,5 +8,6 @@ Feature system package 2.
 - `StatusInsights`
 
 Both components compose shared packages:
+
 - `@group/ui-components`
 - `@group/utils`

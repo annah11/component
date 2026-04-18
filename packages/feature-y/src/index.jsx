@@ -1,2 +1,2 @@
-export { ActivityTimeline } from './ActivityTimeline.jsx';
-export { StatusInsights } from './StatusInsights.jsx';
+export { ActivityTimeline } from "./ActivityTimeline.jsx";
+export { StatusInsights } from "./StatusInsights.jsx";
