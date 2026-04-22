@@ -1,5 +1,18 @@
 # Turborepo starter
 
+## Assignment Adaptation Note
+
+This starter is being adapted for a Monorepo System Development coursework project.
+The target structure for the next implementation phase is:
+
+- `packages/ui-components`
+- `packages/utils`
+- `packages/feature-x`
+- `packages/feature-y`
+- `apps/system`
+
+Current day status: repository baseline is stable, and transformation will be applied incrementally in follow-up commits.
+
 This Turborepo starter is maintained by the Turborepo core team.
 
 ## Using this example
