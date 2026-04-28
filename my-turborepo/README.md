@@ -1,5 +1,7 @@
 # Turborepo starter
 
+Last updated: 2026-04-28 — minor edits and accessibility tweaks.
+
 ## Assignment Adaptation Note
 
 This starter is being adapted for a Monorepo System Development coursework project.
@@ -12,6 +14,46 @@ The target structure for the next implementation phase is:
 - `apps/system`
 
 Current day status: repository baseline is stable, and transformation will be applied incrementally in follow-up commits.
+
+## Coursework Packages (Current)
+
+- `apps/system`: system assembly app that composes feature packages.
+- `packages/feature-x`: task summary and quick action components.
+- `packages/feature-y`: timeline and status insight components.
+- `packages/ui-components`: shared presentational primitives (`Button`, `Card`, `Badge`).
+- `packages/utils`: shared utility helpers (`formatDate`, `toTitleCase`, `fetchJson`).
+
+## System Documentation Structure
+
+The system documentation is organized into three tabs:
+
+- `Progress` tab: tracks build status, completed milestones, and what is currently in implementation.
+- `Ideation` tab: captures ideas, experiments, and future improvements before they become committed scope.
+- `Component` tab: documents reusable UI components, feature modules, and package composition details.
+
+This three-tab structure is the required baseline for coursework documentation updates.
+
+Package docs:
+
+- `apps/system/README.md`
+- `packages/feature-x/README.md`
+- `packages/feature-y/README.md`
+- `packages/ui-components/README.md`
+- `packages/utils/README.md`
+
+### Quick Start For Coursework App
+
+Install dependencies:
+
+```sh
+pnpm install
+```
+
+Run only the system app:
+
+```sh
+pnpm --filter @group/system dev
+```
 
 This Turborepo starter is maintained by the Turborepo core team.
 

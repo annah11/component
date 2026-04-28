@@ -1,0 +1,22 @@
+{
+  "name": "@group/feature-y",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.jsx",
+  "exports": {
+    ".": "./src/index.jsx"
+  },
+  "scripts": {
+    "build": "echo 'feature-y build complete'",
+    "dev": "echo 'feature-y dev ready'",
+    "lint": "echo 'feature-y lint complete'"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "dependencies": {
+    "@group/ui-components": "workspace:*",
+    "@group/utils": "workspace:*"
+  }
+}

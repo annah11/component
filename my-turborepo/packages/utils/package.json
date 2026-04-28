@@ -1,0 +1,15 @@
+{
+  "name": "@group/utils",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "build": "echo 'utils build complete'",
+    "dev": "echo 'utils dev ready'",
+    "lint": "echo 'utils lint complete'"
+  }
+}

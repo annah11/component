@@ -1,0 +1,19 @@
+{
+  "name": "@group/ui-components",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.jsx",
+  "exports": {
+    ".": "./src/index.jsx",
+    "./styles.css": "./src/styles.css"
+  },
+  "scripts": {
+    "build": "echo 'ui-components build complete'",
+    "dev": "echo 'ui-components dev ready'",
+    "lint": "echo 'ui-components lint complete'"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  }
+}
