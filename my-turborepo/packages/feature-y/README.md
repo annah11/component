@@ -10,7 +10,7 @@ Feature package focused on timeline and status insight components.
 ## Usage
 
 ```jsx
-import { ActivityTimeline, StatusInsights } from '@group/feature-y';
+import { ActivityTimeline, StatusInsights } from "@group/feature-y";
 ```
 
 `ActivityTimeline` expects:

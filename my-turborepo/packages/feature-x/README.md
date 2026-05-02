@@ -10,7 +10,7 @@ Feature package focused on task summary and task action controls.
 ## Usage
 
 ```jsx
-import { TaskSummary, QuickActions } from '@group/feature-x';
+import { TaskSummary, QuickActions } from "@group/feature-x";
 ```
 
 `TaskSummary` expects:

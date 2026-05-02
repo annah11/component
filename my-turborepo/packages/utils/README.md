@@ -11,7 +11,7 @@ Shared utility functions for all packages.
 ## Usage
 
 ```js
-import { formatDate, toTitleCase, fetchJson } from '@group/utils';
+import { formatDate, toTitleCase, fetchJson } from "@group/utils";
 ```
 
 Behavior summary:

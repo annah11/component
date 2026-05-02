@@ -13,21 +13,21 @@ Reusable UI component library for the monorepo.
 Import shared styles once in your app entry (for example `apps/system/src/main.jsx`):
 
 ```jsx
-import '@group/ui-components/styles.css';
+import "@group/ui-components/styles.css";
 ```
 
 ## Usage
 
 ```jsx
-import { Card, Button, Badge } from '@group/ui-components';
+import { Card, Button, Badge } from "@group/ui-components";
 
 function Example() {
-	return (
-		<Card title="Demo" description="Shared primitives">
-			<Button>Primary</Button>
-			<Badge tone="success">OK</Badge>
-		</Card>
-	);
+  return (
+    <Card title="Demo" description="Shared primitives">
+      <Button>Primary</Button>
+      <Badge tone="success">OK</Badge>
+    </Card>
+  );
 }
 ```
 

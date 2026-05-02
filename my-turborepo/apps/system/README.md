@@ -31,4 +31,3 @@ pnpm --filter @group/system build
 ## Entry point
 
 - `src/main.jsx`: bootstraps React and loads shared UI styles.
-
